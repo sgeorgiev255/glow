@@ -466,4 +466,8 @@ std::set<std::string> glow::backendTestBlacklist = {
     "Upsample_Nearest1D_Float16/0",
     "Upsample_Nearest1D_Int8/0",
     "batchedReduceAdd_Int32ITy/0",
-};
+    "NonFlattenedIndicesMaxPoolWithArgmaxTransposed/0",
+    "NonFlattenedIndicesQuantizedMaxPoolWithArgmaxTransposed/0",
+    "NonSquareDilationConv2D/0"
+    "NonFlattenedIndicesMaxPoolWithArgmaxTransposed/0",
+    "NonFlattenedIndicesQuantizedMaxPoolWithArgmaxTransposed/0"};
